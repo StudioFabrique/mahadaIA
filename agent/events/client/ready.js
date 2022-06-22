@@ -56,7 +56,7 @@ module.exports = async (client, discord, message) => {
 //     try {
 //         const resp = await fetch(`https://discord.com/api/users/285025914138394626`, {
 //           headers: {
-//             authorization: `Bot OTYxOTU2NDk2NTUwMjczMDU1.YlAhzQ.fRlAkcnv02sgNPtWnVD4tXaMYT0`,
+//             authorization: `Bot ${process.env.DSTOKEN}`,
 //            },
 //          })
 //         const data = await resp.json()
