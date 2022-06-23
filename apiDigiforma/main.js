@@ -41,6 +41,11 @@ type Query {
     clients: [Client]
     asteroidsNear: AsteroidsNear
 },
+
+
+
+
+
 type Mutation {
   addClient( name: String, lastname: String): Client
 },
