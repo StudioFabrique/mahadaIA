@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #e0e0e0;
+	color: #1d1d1d;
+    height: 100vh;
+}
+.search {
+	background-color: rgba(6, 146, 146, 0.76);
+	height: 70px;
+	box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.589);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+.orBY {
+	display: flex;
+	align-content: center;
+
+}
+.input {
+	width: 20%;
+}
+#search, .barra {
+	margin: auto;
+	height: 30px;
+	width: 90%;
+	border-radius: 10px;
+	font-size: 1.1rem;
+	text-align: center;
+
+}
+
+
+/* ++++++++++++++++++++USER++++++++++++++++++++++++ */
+
+#contenedorUser {
+    height: 90vh;
+    width: 100%;
+    padding:10px;
+display: flex;
+justify-content: center;
+}
+.img_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.avatar {
+   width: 10vw;
+   border-radius: 50%;
+   margin: 20px;
+} 
+
+.userInfo{
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+}
+.e{
+    padding: 5px;
+}
+
